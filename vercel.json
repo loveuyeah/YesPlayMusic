@@ -1,1 +1,14 @@
-https://netease-cloud-music-api-wine-five.vercel.app/
+{
+  "rewrites": [
+    {
+      "source": "/api/:match*",
+      "destination": "https://netease-cloud-music-api-wine-five.vercel.app/:match*"
+    }
+  ]
+}
+
+
+
+
+
+
